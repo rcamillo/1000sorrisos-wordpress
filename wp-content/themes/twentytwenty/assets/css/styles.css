@@ -1,0 +1,38 @@
+.bannerTop {
+  background: url(../images/bammer-home-top.jpg) !important;
+  height: 400px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.bannerTop-Texto {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #000;
+  height: 100%;
+  width: 40%;
+  color: #fff;
+  -webkit-box-shadow: -83px 6px 115px 123px rgba(0, 0, 0, 0.99);
+  box-shadow: -83px 6px 115px 123px rgba(0, 0, 0, 0.99);
+  font-size: 30px;
+}
+
+.bannerTop-Texto p {
+  width: 59%;
+}
+
+.bannerTop-Texto span {
+  font-weight: bold;
+}
+
+.home-banner-button {
+  padding: 1rem 2rem;
+  background: blue;
+  text-transform: initial;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 15px;
+  font-size: 18px;
+}
